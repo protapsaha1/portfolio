@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.textwaveanimate {
+    color: #03a9f4;
+    animation: water_wave_animate 1s ease-in-out infinite;
+}
+
+@keyframes water_wave_animate {
+
+    0%,
+    100% {
+        clip-path: polygon(0 71%, 20% 57%, 48% 73%, 72% 59%, 100% 75%, 100% 100%, 0 100%);
+    }
+
+    50% {
+        clip-path: polygon(0 72%, 10% 79%, 23% 79%, 29% 72%, 39% 66%, 48% 73%, 55% 79%, 64% 85%, 73% 84%, 84% 80%, 94% 75%, 100% 68%, 100% 99%, 0 100%);
+    }
+}
+
+/* --------------------------------------------- */
+
+
+.circle_animate {
+    animation: rotate_circle 5s infinite ease-in-out;
+}
+
+
+@keyframes rotate_circle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

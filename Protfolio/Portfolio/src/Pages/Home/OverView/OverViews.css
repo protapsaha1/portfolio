@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.typing_animation span::after {
+    animation: text_typing 5s steps(10) infinite;
+}
+
+@keyframes text_typing {
+    100% {
+        left: 100%;
+    }
+}
+
+.overview_content .dev_animation {
+    position: relative;
+    width: 23.5rem;
+}
+
+
+.overview_content .dev_animation h3 {
+    position: relative;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: transparent;
+    -webkit-text-stroke: 0.7px hsl(312, 98%, 49%);
+}
+
+
+.overview_content .dev_animation h3::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: hsl(312, 98%, 49%);
+    -webkit-text-stroke: 0 hsl(312, 98%, 49%);
+    border-right: 2px solid hsl(312, 98%, 49%);
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    10%,
+    100% {
+        width: 0%;
+    }
+
+    70%,
+    90% {
+        width: 100%;
+    }
+}

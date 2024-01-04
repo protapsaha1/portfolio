@@ -1,0 +1,88 @@
+[
+    {
+        "_id": "dkljisueiwew8732",
+        "name": "Kids Paradise",
+        "description": "React.js vite, Tailwind Css, Tailwind components, Daisyui, Firebase, Cors, Express.js, Node.js, Mongodb, Jsonwebtoken, Dotenv. This project dedicated for kids. Here you find all kids toys but spacificly this projects made base on toy cars.",
+        "image": "https://i.ibb.co/m66pTVc/paradise.png",
+        "git_link": "https://github.com/protapsaha1/kids_toys_paradise",
+        "live_link": "https://kids-toys-22124.web.app",
+        "features": [
+            "A beautyfull landing page/Home page",
+            "User login or Register facalities",
+            "customer dashboard and Admin panel",
+            "Payment Option"
+        ],
+        "gallery": {
+            "video": "https://player.vimeo.com/video/865348539?h=4097502b51",
+            "photos": [
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png"
+            ]
+        }
+    },
+    {
+        "_id": "dkljisueiwew8733",
+        "name": "Ema Graphy",
+        "description": "React.js vite, React components, Tailwind Css, Tailwind Components, Daisyui, Firebase, Tanstack Query, Stripe.js, Axios, Sweetalert2, Express.js, Node.js, Cors, Dotenv, Mongodb, Stripe, Jsonwebtoken. This project made base on Photograhy courses.",
+        "image": "https://i.ibb.co/Kqxmn9c/emagraphy.jpg",
+        "git_link": "https://github.com/protapsaha1/photography_course__ema-graphy",
+        "live_link": "https://ema-graphy.web.app",
+        "features": [
+            "A beautyfull landing page/Home page",
+            "User login or Register facalities",
+            "customer dashboard and Admin panel",
+            "Payment Option"
+        ],
+        "gallery": {
+            "video": "https://www.youtube.com/embed/tgbNymZ7vqY",
+            "photos": [
+                "https://i.ibb.co/Kqxmn9c/emagraphy.jpg",
+                "https://i.ibb.co/Kqxmn9c/emagraphy.jpg",
+                "https://i.ibb.co/Kqxmn9c/emagraphy.jpg",
+                "https://i.ibb.co/Kqxmn9c/emagraphy.jpg",
+                "https://i.ibb.co/Kqxmn9c/emagraphy.jpg",
+                "https://i.ibb.co/Kqxmn9c/emagraphy.jpg",
+                "https://i.ibb.co/Kqxmn9c/emagraphy.jpg",
+                "https://i.ibb.co/Kqxmn9c/emagraphy.jpg",
+                "https://i.ibb.co/Kqxmn9c/emagraphy.jpg",
+                "https://i.ibb.co/Kqxmn9c/emagraphy.jpg",
+                "https://i.ibb.co/Kqxmn9c/emagraphy.jpg"
+            ]
+        }
+    },
+    {
+        "_id": "dkljisueiwew8734",
+        "name": "Master Chef",
+        "description": "React.js vite, React components, Tailwind Css, Tailwind Components, Daisyui, Firebase, Tanstack Query, Stripe.js, Axios, Sweetalert2, Express.js, Node.js, Cors, Dotenv, Mongodb, Stripe, Jsonwebtoken. This project made base on Photograhy courses.",
+        "image": "https://i.ibb.co/m66pTVc/paradise.png",
+        "git_link": "",
+        "live_link": "https://master-chefs-f8851.web.app",
+        "features": [
+            "A beautyfull landing page/Home page",
+            "User login or Register facalities",
+            "Admin panel"
+        ],
+        "gallery": {
+            "video": "https://www.youtube.com/embed/tgbNymZ7vqY",
+            "photos": [
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png",
+                "https://i.ibb.co/m66pTVc/paradise.png"
+            ]
+        }
+    }
+]

@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullheader {
+    width: 100vw;
+    height: 4.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1900px;
+    height: 4.2rem;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 5rem;
+}
+
+/* .headerbgdarkskyblue {
+    background: rgb(18, 42, 57);
+}
+
+.headerbgdark {
+    /* background: rgb(9, 15, 19); */
+    /* background: rgb(18, 42, 57);
+} */
+
+/* .headerbglight {
+    background: rgb(204, 204, 204);
+} */
+
+
+.header .devlogo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    gap: .3rem;
+    color: #fff;
+    margin-left: 3rem;
+}
+
+
+.drawermenu {
+    display: none;
+}
+
+/* ----------------- */
+
+.responsive-menu {
+    display: none;
+}
+
+/* ----------------- */
+
+.responsive-menu .menubaricon {
+    display: none;
+}
+
+.drawerdash {
+    display: none;
+}
+
+.drawermenu {
+    display: none;
+}
+
+nav>a {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin: 0 .5rem;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 5px 3px 5px 3px #f0f0f0;
+}
+
+
+nav>a:hover {
+    color: rgb(244, 244, 244);
+}
+
+nav>a:nth-child(1):before,
+nav>a:nth-child(2):before,
+nav>a:nth-child(3):before,
+nav>a:nth-child(4):before,
+nav>a:nth-child(5):before,
+nav>a:nth-child(6):before,
+nav>a:nth-child(1):after,
+nav>a:nth-child(2):after,
+nav>a:nth-child(3):after,
+nav>a:nth-child(4):after,
+nav>a:nth-child(5):after,
+nav>a:nth-child(6):after {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    left: -100%;
+    transform: translateX(50%);
+    background-repeat: no-repeat;
+}
+
+nav>a:nth-child(1).animate:before,
+nav>a:nth-child(2).animate:before,
+nav>a:nth-child(3).animate:before,
+nav>a:nth-child(4).animate:before,
+nav>a:nth-child(5).animate:before,
+nav>a:nth-child(6).animate:before {
+    top: -50%;
+    background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+        radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),
+        radial-gradient(circle, #2ae896 20%, transparent 20%),
+        radial-gradient(circle, transparent 10%, #2ae896 15%, transparent 20%),
+        radial-gradient(circle, #e8e82a 20%, transparent 20%),
+        radial-gradient(circle, #2ae843 20%, transparent 20%),
+        radial-gradient(circle, #2adfe8 20%, transparent 20%),
+        radial-gradient(circle, #e82ae5 20%, transparent 20%),
+        radial-gradient(circle, #e82a6d 10%, transparent 10%),
+        radial-gradient(circle, #e8a92a 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 18% 18%, 25% 25%;
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 40% 90%, 45% 90%, 70% 90%, 20% 90%;
+    animation: top_bubble_fire 0.6s forwards;
+}
+
+@keyframes top_bubble_fire {
+    50% {
+        background-position: 0% 80%, 0% 60%, 5% 70%, 60% 0%, 50% 0%, 4% 50%, 80% 5%, 7% 70%, 0% 60%, 5% 90%;
+    }
+
+    100% {
+        background-position: 0% 70%, 0% 20%, 10% 30%, 30% 70%, 0% -80%, 40% 0%, -80% 30%, 0% 40%, 20% 10%, 5% 30%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0%, 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+
+nav>a:nth-child(1).animate:after,
+nav>a:nth-child(2).animate:after,
+nav>a:nth-child(3).animate:after,
+nav>a:nth-child(4).animate:after,
+nav>a:nth-child(5).animate:after,
+nav>a:nth-child(6).animate:after {
+    bottom: -50%;
+    background-image: radial-gradient(circle, #6900f1 20%, transparent 20%),
+        radial-gradient(circle, transparent 20%, #6900f1 20%, transparent 30%),
+        radial-gradient(circle, #179b62 20%, transparent 20%),
+        radial-gradient(circle, transparent 10%, #179b62 15%, transparent 20%),
+        radial-gradient(circle, hwb(20 16% 5%) 20%, transparent 20%),
+        radial-gradient(circle, #2a56e8 20%, transparent 20%),
+        radial-gradient(circle, #962ae8 20%, transparent 20%),
+        radial-gradient(circle, #e82ac2 20%, transparent 20%),
+        radial-gradient(circle, #cce82a 10%, transparent 10%),
+        radial-gradient(circle, #ac0606 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 18% 18%, 25% 25%;
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 40% 90%, 45% 90%, 70% 90%, 20% 90%;
+    animation: bottom_bubble_fire 0.6s forwards;
+}
+
+@keyframes bottom_bubble_fire {
+    50% {
+        background-position: 0% 80%, 0% 60%, 5% 70%, 60% 0%, 50% 0%, 4% 50%, 80% 5%, 75% 10%, 100% 60%, 105% 60%;
+    }
+
+    100% {
+        background-position: 0% 70%, 0% 20%, 10% 30%, 30% 70%, 0% -80%, 40% 0%, -80% 30%, 0% 40%, 20% 10%, 5% 30%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0%, 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+
+
+.dp_menu_con {
+    width: 300px;
+    height: fit-content;
+    padding: .5rem;
+}
+
+@media (max-width:32.5rem) {
+    .header {
+        padding: 0 1rem 0 1rem;
+        height: 3rem;
+    }
+
+    .headbgdark {
+        background: rgb(18, 42, 57);
+    }
+
+    .headbgdarksky {
+        background: rgb(18, 42, 57);
+    }
+
+    .headbglight {
+        background: rgb(204, 204, 204);
+    }
+
+    .header .devlogo {
+        font-size: 1rem;
+        line-height: 1rem;
+        gap: .2rem;
+        margin-left: 0;
+    }
+
+    .header .devlogo>img {
+        width: 2rem;
+        height: 2rem;
+        padding: 5px;
+    }
+
+    .responsive-menu {
+        display: block;
+    }
+
+    /* todo----------------------------- */
+
+    .drawermenu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: fit-content;
+        z-index: 100;
+        transition: .5s;
+        border-bottom-right-radius: .5rem;
+    }
+
+
+    .drawerdarkskyblue {
+        background: linear-gradient(#030303f2, rgb(1, 25, 70));
+    }
+
+    .drawerdark {
+        background: linear-gradient(#d3d0d0f2, rgb(48, 48, 48));
+    }
+
+    .drawerlight {
+        background: rgb(176, 176, 176);
+    }
+
+    .drawerdash {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #ffffff32;
+        z-index: 100;
+        transition: .2s;
+    }
+
+    .drawermenu ul>div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+
+    .drawermenu ul>div>.theme>span svg {
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+
+    .drawermenu ul>div>.theme>.dark svg {
+        color: rgb(73, 71, 71);
+    }
+
+    .drawermenu ul>div>.theme>.light svg {
+        color: rgb(235, 235, 12);
+    }
+
+    .drawermenu ul>div>.theme>.darksky svg {
+        color: rgb(8, 81, 136);
+    }
+
+    .drawermenu ul>div>span svg {
+        color: snow;
+        font-size: 2.5rem;
+        background: rgb(49, 48, 48);
+        border-radius: 50%;
+        padding: 0.2rem;
+        transition: transform .5s ease-in;
+    }
+
+    .drawermenu ul div span svg:active {
+        transform: scale(.10);
+    }
+
+
+    .drawermenu ul div span svg:hover {
+        color: rgb(10, 10, 57);
+    }
+
+
+    .drawermenu ul {
+        padding: .8rem;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .drawermenu ul li {
+        list-style: none;
+        padding: 1rem .8rem;
+    }
+
+    .drawermenu ul li:hover {
+        list-style: none;
+        padding: 1rem .8rem;
+        background: rgb(81, 78, 78);
+
+    }
+
+    .drawermenu ul li a {
+        font-size: 1.5rem;
+        color: #ffffff;
+        list-style: none;
+        letter-spacing: 0.063rem;
+        text-decoration: none;
+    }
+
+    .drawermenu ul li a:hover {
+        color: #0091ff9a;
+    }
+
+    .opendrawer {
+        width: 20rem;
+    }
+
+
+    .drawerdashopen {
+        width: 100%;
+    }
+
+    .drawernone {
+        display: none;
+    }
+
+    .drawerdashnone {
+        display: none;
+    }
+
+    nav>a {
+        display: none;
+    }
+
+
+    .responsive-menu .menubaricon {
+        display: block;
+        font-size: 2rem;
+    }
+
+    .responsive-menu .menubaricon:hover {
+        color: rgb(0, 255, 8);
+    }
+
+    .menubardarkskyblue {
+        color: white;
+    }
+
+    .menubardark {
+        color: white;
+    }
+
+    .menubarlight {
+        color: black;
+    }
+
+}
